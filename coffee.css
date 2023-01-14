@@ -1,0 +1,123 @@
+header h1 {
+    font-family: 'Akronim', cursive;
+    margin: 0px;
+}
+#unique {
+    width: 200px;
+    text-align: right;
+    font-size: small;
+    font-style: italic;
+    float: right;
+    margin: 0px;
+}
+header {
+    color: #744400;
+    background-color: #FFAE17;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #744400;
+    padding: 5px;
+    margin: 0px;
+}
+.fix {
+    overflow: auto;
+}
+body {
+    background-color: #382D1B;
+    border: solid red;
+}
+#tablecontainer {
+    display: table;
+    border-spacing: 2px;
+    border: solid red;
+    word-break: break-word;
+    overflow: auto;
+}
+#rowcontainer {
+    display: table-row;
+}
+#drinks {
+    display: table-cell;
+    background-color: #efe5d0;
+    padding: 5px;
+    vertical-align: top;
+}
+#drinks h2{
+    font-size: 100%;
+}
+
+#main {
+    display: table-cell;
+    vertical-align: top;
+    font-family: serif;
+    padding: 10px 10px;
+    background-color: white;
+}
+a:link {
+    color: red;
+    border-bottom: dashed underline;
+}
+#main h2 {
+    font-size: 100%;
+    color: #862E40;
+}
+aside{
+    display: table-cell;
+    padding: 10px 10px;
+    vertical-align: top;
+    background-color: white;
+}
+.whev {
+    text-align: center;
+}
+.slogan {
+    color: red;
+}
+footer {
+    margin: 0px;
+    text-align: center;
+    background-color: #FFAE17;
+    font-size: small;
+    border: solid green;
+    border-radius: 10px;
+}
+footer p {
+    margin-top: 0px;
+}
+#test{
+    border: solid;
+    background-color: red;
+}
+#fixedfooter{
+    border: solid red;
+    text-align: center;
+    width: 340px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background-color: black;
+    position: fixed;
+    bottom: 0px
+}
+ul{
+    margin: 0px;
+    padding: 5px;
+    background-color: white;
+    list-style-type: none;
+    border: solid white;
+}
+ul li{
+    display: inline;
+    border: solid black;
+    padding: 5px 5px;
+    margin: 10px;
+    
+}
+ul li a:link, a:visited{
+    color: black;
+    border-bottom: none;
+    text-decoration: none;
+    
+}
+video{
+    border: solid green;
+}
